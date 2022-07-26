@@ -1,0 +1,86 @@
+.paginationDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 6px;
+  padding: 12px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.secondPaginationDiv {
+  display: flex;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  justify-content: center;
+  align-items: center;
+}
+
+.pageNumber {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 6px;
+  height: 6px;
+  width: 6px;
+  margin-right: 4px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.newpage {
+  height: 6px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.number {
+  width: 6px;
+  border-radius: 50%;
+}
+.individualNumber {
+  color: #ffffff;
+  padding: 10px 16px 10px 16px;
+  border-radius: 50%;
+  margin-left: 5px;
+  margin-right: 5px;
+  border: 1px solid #fff;
+  font-weight: medium;
+}
+.individualNumber:hover {
+  background-color: #ffaa2a;
+  cursor: pointer;
+}
+.icon {
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  margin-right: 5px;
+  color: #fff;
+}
+.active {
+  background-color: #ffaa2a;
+}
+.transparent {
+  background-color: transparent;
+}
+
+@media (max-width: 639px) {
+  .paginationDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6px;
+    padding: 12px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+  }
+  .individualNumber {
+    color: #ffffff;
+    padding: 4px 12px 4px 12px;
+    border-radius: 50%;
+    margin: 5px;
+    border: 1px solid #fff;
+    font-weight: medium;
+  }
+}
